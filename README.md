@@ -33,22 +33,20 @@ Traffic monitoring is a critical aspect of urban management, but manual methods 
 7. **Output**: Display results with bounding boxes and speed annotations.
 
 ## 🚀 Usage
-Replace the video file in the code with your desired input:
-```python
-cap = cv2.VideoCapture('input_video.mp4')
-Run the script to start vehicle detection and speed estimation.
+Simply replace the video file in the code with your desired input and run the script to initiate the vehicle detection and speed estimation. The results will be displayed with bounding boxes and speed annotations on the processed video frames.
 
-Visualize the output with detected vehicles and speed annotations displayed on the video frames.
+## 📊 Results
+- **Processing Speed**: The system processes at ~15 FPS on standard hardware.
+- **Speed Accuracy**: The speed estimation has an accuracy of approximately 90%, depending on the calibration and quality of the video input.
+- **Vehicle Count**: The number of vehicles detected is dynamically displayed on the processed frames.
+- **Real-Time Feedback**: Bounding boxes are displayed around detected vehicles, and their speed is annotated in real-time.
 
-##📊 Results
-**Processing Speed**: The system processes at ~15 FPS on standard hardware.
-**Speed Accuracy**: The speed estimation has an accuracy of approximately 90%, depending on the calibration and quality of the video input.
-**Vehicle Count**: The number of vehicles detected is dynamically displayed on the processed frames.
-**Real-Time Feedback**: Bounding boxes are displayed around detected vehicles, and their speed is annotated in real-time.
+## 🔮 Future Enhancements
+- **Implement YOLO for Improved Detection**: Implement the YOLO (You Only Look Once) algorithm for faster and more accurate vehicle detection.
+- **Lane-Specific Tracking**: Add functionality for tracking vehicles within specific lanes and estimating speeds for each lane.
+- **IoT Integration**: Integrate Internet of Things (IoT) devices to collect live data and provide real-time traffic monitoring.
+- **Enhanced Robustness**: Improve the system's robustness in challenging environments, such as crowded scenes or occluded vehicles, to handle more complex real-world situations.
+- **Cloud Integration**: Enable cloud-based processing to handle large-scale traffic data and store historical vehicle movement data for analysis.
 
-##🔮 Future Enhancements
-**Implement YOLO for Improved Detection**: Implement the YOLO (You Only Look Once) algorithm for faster and more accurate vehicle detection.
-**Lane-Specific Tracking**: Add functionality for tracking vehicles within specific lanes and estimating speeds for each lane.
-**IoT Integration**: Integrate Internet of Things (IoT) devices to collect live data and provide real-time traffic monitoring.
-**Enhanced Robustness**: Improve the system's robustness in challenging environments, such as crowded scenes or occluded vehicles, to handle more complex real-world situations.
-**Cloud Integration**: Enable cloud-based processing to handle large-scale traffic data and store historical vehicle movement data for analysis.
+
+
