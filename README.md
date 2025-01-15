@@ -9,7 +9,7 @@ This repository contains the implementation of a Vehicle Tracking and Speed Esti
 - [Usage](#usage)
 - [Results](#results)
 - [Future Enhancements](#future-enhancements)
-- [Contact](#contact)
+  
 
 ## 📋 Overview
 Traffic monitoring is a critical aspect of urban management, but manual methods are prone to errors and inefficiencies. This project automates the process using Computer Vision to deliver:
